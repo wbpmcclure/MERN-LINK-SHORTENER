@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home {
+  font-family: "Trebuchet MS";
+}
+
+.home h2 {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+  margin: 0 0;
+  font-size: 50px;
+}
+
+div.link-list {
+  display: inline-block;
+  width: 900px;
+}
+
+.link-details {
+  display: block;
+  background: #fff;
+  border-radius: 4px;
+  border: 2px solid #e6e6e6;
+  margin: 20px 500px auto;
+  margin-right: 0px;
+  padding: 0px;
+  position: relative;
+  right: 320px;
+  width: 650px;
+  height: 100px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.05);
+  background-color: rgb(253, 253, 253);
+}
+
+.link-details p{
+  display: block;
+  font-size: 20px;
+  margin: 10px 16px;
+  color: rgb(108, 128, 247);
+  text-decoration: none;
+}
+
+p.destination{
+  margin-top: 30px;
+}
+
+p.date{
+  position: relative;
+  bottom: 32px;
+  left: 380px;
+  display: inline;
+}
+
+div.form {
+  position: absolute;
+  left: 920px;
+  top: 76px;
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid #e6e6e6;
+}
+
+div.input {
+  display: block;
+}
+
+.input input{
+  position: relative;
+  margin: 10px 20px;
+  margin-right: 10px;
+}
+
+.form h3{
+  margin: 4px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.input label {
+  margin-left: 20px;
+}
+
+.form button{
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+button.delete {
+  display: inline;
+  position: relative;
+  top: -90px;
+  left: 310px;
+}
+
+.error p{
+  color: red;
+  margin-left: 20px;
+}
+
+input.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid red;
+  color: red;
+  border-radius: 4px;
+  margin: 20px 0;
+}
